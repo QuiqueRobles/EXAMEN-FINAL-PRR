@@ -1,0 +1,19 @@
+En este directorio debe entregar los ficheros que conforman la respuesta a la prueba.
+
+MANUAL DE EXAMEN
+
+Mi examen consta de tres ficheros, serv.py, cli.py, test.py.
+
+Para ejecutarlos se hace uso de los siguientes comandos:
+make cli
+make serv
+make test
+
+El cliente se conecta al servidor pasando direccion y puerto como se pide en la practica.
+A continuación se pide introducir estas dos opciones para que develva el servidor:
+	FRASE: Devuelve una frase aleatoria del fichero que guarda en el servidor 
+	TOTAL: Devuelve el numero de lineas (numero de saltos) y el numero de frases (Entendido como aquellas que terminan en punto)
+
+NOTA: El cliente modificado está hecho ya de por si, es el try que envuelve toda la conexión, se puede comprobar dando una direccion o un puerto erroneos
+
+Y ESO ES TODO AMIGOS!!!
